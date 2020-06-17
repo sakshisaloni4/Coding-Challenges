@@ -52,6 +52,7 @@ class Codechef
 		    {
 		        a[i]=sc.nextInt();
 		    }
+		    //function call
 		    String r= icecream(a,n);
 		    System.out.println(r);
 		}
