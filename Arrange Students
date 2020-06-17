@@ -29,12 +29,15 @@ class Result {
        int sum1=0,sum2=0;
         for(int i=0;i<a.size();i++){
            sum1+= a.get(i);
+           //finding sum of heights of all girls
         }   
         for(int i=0;i<a.size();i++){
            sum2+= b.get(i);
+           //finding sum of heights of all boys
         }  
         if(sum1<sum2){
             while(a.size()!=0){
+            //adding min height for girl
                 arr.add(Collections.min(a));
                 a.remove(Collections.min(a));
                 arr.add(Collections.min(b));
@@ -44,6 +47,7 @@ class Result {
         else
         {
              while(a.size()!=0){
+             //adding min height for boy
                 arr.add(Collections.min(b));
                 b.remove(Collections.min(b));
                 arr.add(Collections.min(a));
