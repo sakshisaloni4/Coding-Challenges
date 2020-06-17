@@ -12,7 +12,9 @@ class Codechef
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
 		int t=sc.nextInt();
+		//test case
 		while(t-->0){
+		//taking input
 		    int n=sc.nextInt();
 		    int k=sc.nextInt();
 		    int[] a=new int[n];
@@ -28,6 +30,7 @@ class Codechef
 		        else sum1+=a[i];
 		    }
 		    System.out.println(sum-sum1);
+		    //printing difference of the two sum
 		}
 	}
 }
